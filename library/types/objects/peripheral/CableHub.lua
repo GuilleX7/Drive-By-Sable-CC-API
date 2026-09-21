@@ -23,6 +23,12 @@ local CableHub = {}
 ---```
 function CableHub.getPressedButtons() end
 
+---Check whether a controller button is currently pressed.
+---
+---@param button integer A button index from 0 through 5.
+---@return boolean pressed Whether the button is currently pressed.
+function CableHub.getButton(button) end
+
 ---Get the prefix used for controller events.
 ---
 ---When the prefix is non-empty, the event names are `<prefix>_button` and
