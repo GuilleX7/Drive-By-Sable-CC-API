@@ -7,6 +7,7 @@ LuaCATS type definitions for the [Drive-By-Sable](https://github.com/lakeOpossMC
 The definitions are namespaced under `DriveBySable.peripherals`; they do not expose global peripheral classes.
 
 - `DriveBySable.peripherals.CableHub` — `cable_hub`
+- `DriveBySable.peripherals.AdvancedCableHub` — `advanced_cable_hub`
 - `DriveBySable.peripherals.IntegratedSensorBus` — `integrated_flight_sensor`
 - `DriveBySable.peripherals.LinkedTypewriterHub` — `linked_typewriter_hub`
 - `DriveBySable.peripherals.MultiChannelCableBus` — `multi_channel_cable_bus`
