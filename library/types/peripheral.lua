@@ -4,14 +4,18 @@
 ---@alias DriveBySable.peripherals.type
 ---| '"cable_hub"'
 ---| '"advanced_cable_hub"'
+---| '"intermediate_cable_hub"'
 ---| '"integrated_flight_sensor"'
 ---| '"linked_typewriter_hub"'
 ---| '"multi_channel_cable_bus"'
+---| '"radio_kinetic_transceiver"'
 
 ---A wrapped Drive-By-Sable peripheral.
 ---@alias DriveBySable.peripherals.wrappedPeripheral
 ---| DriveBySable.peripherals.CableHub
 ---| DriveBySable.peripherals.AdvancedCableHub
+---| DriveBySable.peripherals.IntermediateCableHub
 ---| DriveBySable.peripherals.IntegratedSensorBus
 ---| DriveBySable.peripherals.LinkedTypewriterHub
 ---| DriveBySable.peripherals.MultiChannelCableBus
+---| DriveBySable.peripherals.RadioKineticTransceiver
