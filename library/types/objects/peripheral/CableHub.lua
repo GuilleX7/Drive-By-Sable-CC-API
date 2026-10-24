@@ -10,8 +10,16 @@
 ---@class DriveBySable.peripherals.CableHub
 local CableHub = {}
 
+---@alias DriveBySable.peripherals.CableHub.buttonIndex
+---| 0 # Up
+---| 1 # Down
+---| 2 # Left
+---| 3 # Right
+---| 4 # Jump
+---| 5 # Shift
+
 ---Get the indexes of the controller buttons that are currently pressed.
----@return integer[] buttons Zero-based button indexes from 0 through 5.
+---@return DriveBySable.peripherals.CableHub.buttonIndex[] buttons Zero-based indexes of the pressed buttons.
 ---## Example
 ---```
 ---local hub = peripheral.find("cable_hub")
@@ -25,7 +33,7 @@ function CableHub.getPressedButtons() end
 
 ---Check whether a controller button is currently pressed.
 ---
----@param button integer A button index from 0 through 5.
+---@param button DriveBySable.peripherals.CableHub.buttonIndex The zero-based controller button index.
 ---@return boolean pressed Whether the button is currently pressed.
 function CableHub.getButton(button) end
 

@@ -8,9 +8,11 @@ The definitions are namespaced under `DriveBySable.peripherals`; they do not exp
 
 - `DriveBySable.peripherals.CableHub` — `cable_hub`
 - `DriveBySable.peripherals.AdvancedCableHub` — `advanced_cable_hub`
+- `DriveBySable.peripherals.IntermediateCableHub` — `intermediate_cable_hub`
 - `DriveBySable.peripherals.IntegratedSensorBus` — `integrated_flight_sensor`
 - `DriveBySable.peripherals.LinkedTypewriterHub` — `linked_typewriter_hub`
 - `DriveBySable.peripherals.MultiChannelCableBus` — `multi_channel_cable_bus`
+- `DriveBySable.peripherals.RadioKineticTransceiver` — `radio_kinetic_transceiver`
 
 The Java implementation is the source of truth for the documented method names and signatures. Each peripheral has its own LuaCATS file under [`library/types/objects/peripheral`](library/types/objects/peripheral).
 
@@ -72,4 +74,4 @@ Methods that have to synchronize with the main thread are marked `Main-thread sy
 
 ## Installation
 
-Add this repository as a Lua Language Server third-party addon, or install it through the VS Code Lua Language Server addon manager when it is published there. The addon is metadata only: it does not add runtime Lua files to ComputerCraft.
+Add this repository as a Lua Language Server third-party addon, or install it through the VS Code Lua Language Server addon manager. The addon is metadata only: it does not add runtime Lua files to ComputerCraft.
